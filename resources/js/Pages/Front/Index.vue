@@ -4,6 +4,7 @@ import { onMounted, ref } from "vue";
 import { LottieAnimation } from "lottie-web-vue";
 import WatermelonJSON from "/public/img/robot.json";
 
+
 // Menginisialisasi variabel anim sebagai referensi Vue
 let anim = ref();
 
@@ -56,7 +57,7 @@ const props = defineProps({
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
                 <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Natan</span>
             </a>
             <div class="flex md:order-2">
                 <div v-if="canLogin">
@@ -93,7 +94,7 @@ const props = defineProps({
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-dark md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Services</a>
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-dark md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Product</a>
                     </li>
                     <li>
                         <a href="#"
@@ -182,6 +183,13 @@ const props = defineProps({
             </div>
         </div>
     </section>
+    <section cclass="bg-grey-50" id="product">
+        <div class="mx-auto max-w-screen-xl container flex flex-col items-center py-16 md:py-20 lg:flex-row">
+            <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
+                <h2>Ini produk</h2>
+            </div>
+        </div>
+    </section>
     <footer>
         <div className="mx-auto max-w-screen-xl  px-4 sm:px-6">
             <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
@@ -191,7 +199,7 @@ const props = defineProps({
                     </div>
                     <div className="text-sm text-gray-600">
                         <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Natan</span>
                     </div>
                 </div>
                 <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
